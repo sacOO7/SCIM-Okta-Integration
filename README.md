@@ -1,6 +1,9 @@
 # Okta-Scim-Server
 Sample SCIM server written in NodeJS that supports Users and Groups (with group memberships!). This can be used in conjunction with the Okta SCIM application to test SCIM capabilities. Includes action logging.
 
+Note - Follow steps from https://developer.okta.com/docs/guides/build-provisioning-integration/test-scim-api/ 
+to run tests in runscope against the server
+
 ## Users endpoint
 
 1\. Create User (POST to {SCIM Base Url}/Users)
@@ -180,6 +183,3 @@ __IMPORTANT: If you change the body type to JSON, Postman will reset the `Conten
   }]
 }
 ```
-
-Note - Follow steps from https://developer.okta.com/docs/guides/build-provisioning-integration/test-scim-api/ 
-to run tests in runscope against the server
